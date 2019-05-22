@@ -1,0 +1,10 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="spring-db.xml"/>
+    <import resource="spring-mvc.xml"/>
+    <import resource="beans.xml"/>
+    <import resource="context.xml"/>
+</beans>

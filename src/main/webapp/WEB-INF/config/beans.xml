@@ -1,0 +1,17 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="orderDao" class="com.example.dao.OrderDao"/>
+    <bean id="paymentDao" class="com.example.dao.PaymentDao"/>
+    <bean id="addressDao" class="com.example.dao.AddressDao"/>
+    <bean id="landlordDao" class="com.example.dao.LandlordDao"/>
+    <bean id="tenantDao" class="com.example.dao.TenantDao"/>
+    <bean id="priceDao" class="com.example.dao.PriceDao"/>
+    <bean id="depositDao" class="com.example.dao.DepositDao"/>
+    <bean id="helloDao" class="com.example.dao.HelloDao"/>
+    <bean id="creatingServiceImpl" class="com.example.service.CreatingServiceImpl"/>
+    <bean id="myLogger" class="com.example.service.MyLogger"/>
+
+</beans>
