@@ -17,8 +17,8 @@
 
             <!-- Spring AOP advises -->
             <aop:pointcut id="createString"
-                          expression="execution(public * com.example.oldApp..*(..)) ||
-                          execution(public * com.example.service..*(..))"/>
+                          expression="execution(public * com.example.oldApp..*(..))
+                          || execution(public * com.example.service..*(..))"/>
             <aop:before pointcut-ref="createString" method="init" />
             <aop:after-returning pointcut-ref="createString" returning="object" method="printResult"/>
             <aop:after pointcut-ref="createString" method="close" />
