@@ -20,4 +20,6 @@ public class MyLogger
     {
         System.out.println(object);
     }
+
+
 }
